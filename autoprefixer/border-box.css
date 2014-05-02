@@ -1,0 +1,17 @@
+
+.box-test {
+  border: 2px solid black;
+  background: #cccccc;
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.border-box {
+  box-sizing: border-box;
+}
+
+.content-box {
+  box-sizing: content-box;
+}

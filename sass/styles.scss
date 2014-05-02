@@ -1,0 +1,48 @@
+
+// compile with sass
+// sass styles.scss > ready.css
+
+// variables
+$corporateColor: #122323;
+
+body {
+  color: $corporateColor;
+}
+
+// nesting
+nav {
+  background: yellow;
+  font-size: 14px;
+  li {
+    color: #ffffff
+  }
+}
+
+// mixins
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -ms-border-radius: $radius;
+  border-radius: $radius;
+}
+
+.box {
+  @include border-radius(10px);
+}
+
+// extend
+.message {
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: #333;
+}
+
+.success {
+  @extend .message;
+  border-color: green;
+}
+
+.error {
+  @extend .message;
+  border-color: red;
+}

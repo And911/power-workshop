@@ -1,0 +1,25 @@
+body {
+  color: #122323; }
+
+nav {
+  background: yellow;
+  font-size: 14px; }
+  nav li {
+    color: #ffffff; }
+
+.box {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px; }
+
+.message, .success, .error {
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: #333; }
+
+.success {
+  border-color: green; }
+
+.error {
+  border-color: red; }

@@ -1,0 +1,24 @@
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box; /* Needed for mobile WebKit */
+  -moz-box-sizing: border-box; /* Needed for Firefox */
+  box-sizing: border-box
+}
+
+.row {
+  display: flex;
+}
+
+.col {
+  flex: 1;
+  padding: 5px;
+  border: 1px solid #cccccc;
+}
+
+.col-50 {
+  flex: 0 0 50%;
+}
+
+.col-75 {
+  flex: 0 0 75%;
+}

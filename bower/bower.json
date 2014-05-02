@@ -1,0 +1,25 @@
+{
+  "name": "workshop",
+  "version": "0.0.1",
+  "authors": [
+    "zeMirco <mirco.zeiss@gmail.com>"
+  ],
+  "description": "sample bower project",
+  "keywords": [
+    "power",
+    "workshop"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.0",
+    "bootstrap": "~3.1.1"
+  }
+}

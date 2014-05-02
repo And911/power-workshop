@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <style>
+    #text {
+      width: 100px;
+      height: 50px;
+    }
+
+    .cgi {
+      color: white;
+      background: red;
+      padding: 10px;
+    }
+
+    .logica {
+      color: yellow;
+      background: #cccccc;
+      padding: 10px;
+    }
+
+    .hidden {
+      display: none;
+    }
+
+    .box {
+      border: 1px solid grey;
+      width: 100px;
+      height: 100px;
+      background: red;
+      float: left;
+      margin-left: 20px;
+    }
+
+    .box:hover {
+      cursor: pointer;
+    }
+  </style>
+
+</head>
+<body>
+
+  <p id="text" class="hidden cgi">
+    Workshop
+  </p>
+
+  <div class="wrapper">
+    <div class="box" data-index="1"></div>
+    <div class="box" data-index="2"></div>
+    <div class="box" data-index="3"></div>
+    <div class="box" data-index="4"></div>
+    <div class="box" data-index="5"></div>
+    <div class="box" data-index="6"></div>
+  </div>
+
+  <script src="../jquery.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
